@@ -4,10 +4,10 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { combineReducers } from 'redux';
-import rootReducer from './reducers/manageAuthorsAndBooks';
+// import rootReducer from './reducers/manageAuthorsAndBooks';
 import authorsReducer from './reducers/authorsReducer'
 import booksReducer from './reducers/booksReducer'
-import uuid from 'uuid'
+
 
 const rootReducer = combineReducers({
   authors: authorsReducer,

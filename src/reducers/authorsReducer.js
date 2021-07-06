@@ -1,3 +1,6 @@
+import uuid from 'uuid'
+
+
 export default function authorsReducer(state = [], action){
     let idx;
     switch(action.type){
